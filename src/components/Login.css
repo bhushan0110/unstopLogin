@@ -1,0 +1,168 @@
+.login-container {
+    max-width: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .brand-name {
+    color: #6c63ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+  }
+  
+  .social-login button {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .google-login {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .facebook-login {
+    background-color: #4267b2;
+    color: white;
+  }
+  
+  .separator {
+    margin: 20px 0;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .separator span {
+    background: white;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .separator:before {
+    content: "";
+    display: block;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .password-group {
+    position: relative;
+  }
+  
+  .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #564de3;
+  }
+  
+  .register-link {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    color: #333;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.unstop-font {
+  font-family: 'Poppins', sans-serif;
+}
